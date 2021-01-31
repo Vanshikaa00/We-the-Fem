@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.navbar-styling {
+  background-color: #fccedb;
+  padding: 30px;
+  font-family: "Poiret One", cursive;
+  font-size: 40px;
+}
+.random-box {
+  background-color: #fccedb;
+  height: 200px;
+}
+.underline {
+  width: 6px;
+  background-color: #9fa0d0;
+}
+.colone {
+  font-weight: bold;
+  color: #d55586;
+}
+.coltwo {
+  font-weight: bold;
+  color: #9fa0d0;
+}
+.link2 {
+  font-size: 23px;
+}
+.fit-img {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  border: 6px solid white;
+  z-index: 4;
+}
+.random-img {
+  border: 6px solid white;
+  position: absolute;
+  top: 10%;
+  left: 20.5%;
+  z-index: 3;
+}
+
+.colored {
+  background-color: #fccedb;
+}
+.container-1 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.heading-1 {
+  padding-top: 60px;
+  font-family: "Bodoni Moda", serif;
+  font-size: 45px;
+  color: #ed5e95;
+}
+#changing-text {
+  position: relative;
+  color: #9fa0d0;
+}
+#changing-text:before {
+  content: "";
+  animation: animate 6s linear infinite;
+}
+@keyframes animate {
+  0% {
+    content: '" Strong " ';
+  }
+  25% {
+    content: '"Passionate"';
+  }
+  50% {
+    content: '"Competitive"';
+  }
+  75% {
+    content: '"Powerful"';
+  }
+  100% {
+    content: '"Inspirational"';
+  }
+}
+.container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.heading-2 {
+  padding: 25px;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+  color: #772f4b;
+}
+.container-3 {
+  background: #fdd3df;
+}
+.btn-styling {
+  border: 1px solid white;
+  color: white;
+  padding: 20px 40px;
+  background-color: #fcd3df;
+  font-family: "Bodoni Moda", serif;
+}
+
+.btn-styling:hover {
+  color: #ed5e95;
+  border: 1px solid #ed5e95;
+}
+.btn-styling-2 {
+  border: 1px solid #9fa0d0;
+  color: #9fa0d0;
+  padding: 20px 40px;
+  margin: 24px;
+  font-family: "Bodoni Moda", serif;
+  font-size: 17px;
+}
+.btn-styling-3 {
+  color: white;
+  background-color: #9fa0d0;
+  padding: 20px 28px;
+  margin: 8px;
+  font-family: "Bodoni Moda", serif;
+  font-size: 17px;
+}
+
+.btn-styling-2:hover {
+  background-color: #9fa0d0;
+  color: white;
+}
+.img-fitting {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+
+  height: 100%;
+  width: 90%;
+
+  border: 10px solid #9fa0d0;
+}
+
+.color2 {
+  background-color: #ffceb6;
+}
+.color3 {
+  background-color: #fccedb;
+}
+
+.reverse {
+}
+.c1 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+  font-family: "Bodoni Moda", serif;
+  font-size: 40px;
+  color: #9fa0d0;
+}
+.c2 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  color: #ed5e95;
+}
+.c11 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 8px;
+  font-family: "Bodoni Moda", serif;
+  font-size: 25px;
+  color: #9fa0d0;
+}
+.c22 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  color: #ed5e95;
+}
+.c3 {
+  color: #9fa0d0;
+  font-size: 25px;
+  font-family: "Bodoni Moda", serif;
+  padding: 20px;
+}
+.c4 {
+  color: #ed5e95;
+  font-size: 15px;
+  font-family: "Quicksand", sans-serif;
+}
+.container4 {
+  position: relative;
+}
+.child4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+input[type="text"] {
+  margin: 0 auto;
+  max-width: 120%;
+  background-color: #fff;
+  padding: 20px;
+}
+@media only screen and (min-width: 280px) and (max-width: 600px) {
+  .navbar-styling {
+    font-size: 25px;
+    padding: 15px;
+  }
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .c1 {
+    font-size: 30px;
+  }
+  .c2 {
+    padding: 10px;
+    font-size: 15px;
+  }
+  .fit-img {
+    max-width: 100%;
+    height: auto;
+  }
+  .random-img {
+    display: none;
+  }
+  .link2 {
+    font-size: 18px;
+  }
+  .heading-1 {
+    padding-top: 0px;
+    font-size: 30px;
+  }
+  .heading-2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .btn-styling-2 {
+    border: 1px solid #9fa0d0;
+    color: #9fa0d0;
+    padding: 10px 30px;
+    margin: 24px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+  .random-img {
+    display: none;
+  }
+
+  .fit-img {
+    max-width: 100%;
+    height: auto;
+  }
+  .heading-1 {
+    padding-top: 30px;
+    font-size: 30px;
+  }
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
